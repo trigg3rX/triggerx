@@ -1,9 +1,9 @@
-[submodule "contracts"]
+[submodule "triggerx-contracts"]
 	path = contracts
 	url = https://github.com/trigg3rX/triggerx-contracts
-[submodule "backend"]
+[submodule "triggerx-backend"]
 	path = backend
 	url = https://github.com/trigg3rX/triggerx-backend
-[submodule "frontend"]
+[submodule "triggerx-frontend"]
 	path = frontend
 	url = https://github.com/trigg3rX/triggerx-frontend
