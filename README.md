@@ -1,16 +1,16 @@
-# TriggerX
+# Trigg3rX
 
 ![Logo](assets/logo.png)
 
 ## Ticks time, Triggers tasks, and Turbocharges TRON
 
-TriggerX is a cross-chain automation platform designed to automate on-chain tasks such as staking, token swaps, and liquidations within the TRON ecosystem. It leverages Ethereum's EigenLayer Automated Validation System (AVS) for decentralized task execution, bringing the benefits of Ethereum-like automation to the TRON blockchain.
+Trigg3rX is a cross-chain automation platform designed to automate on-chain tasks such as staking, token swaps, and liquidations within the TRON ecosystem. It leverages Ethereum's EigenLayer Automated Validation System (AVS) for decentralized task execution, bringing the benefits of Ethereum-like automation to the TRON blockchain.
 
 ---
 
 ## What it Does
 
-TriggerX allows users to automate time-sensitive or condition-based tasks on the TRON blockchain. Some key features include:
+Trigg3rX allows users to automate time-sensitive or condition-based tasks on the TRON blockchain. Some key features include:
 
 - **Time-based Automation:** Schedule tasks such as staking or token burns to occur at specific intervals.
 - **Condition-based Triggers:** Automate tasks like token swaps or liquidations triggered by price changes.
@@ -22,7 +22,7 @@ By using decentralized keepers operating on Ethereum's AVS, tasks are executed w
 
 ## How it Works
 
-TriggerX utilizes cross-chain messaging between Ethereum and TRON to handle automation tasks:
+Trigg3rX utilizes cross-chain messaging between Ethereum and TRON to handle automation tasks:
 
 - **Backend:** Implemented with Node.js, it handles secure data flow between the TRON blockchain (via TronWeb) and Ethereum (via Ethers.js).
 - **Smart Contracts:**
@@ -41,7 +41,7 @@ To get started with TriggerX, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone --recurse-submodules https://github.com/yrigg3rX/triggerx.git
+   git clone --recurse-submodules https://github.com/trigg3rX/triggerx.git
    cd triggerx
    ```
 
@@ -57,4 +57,4 @@ To get started with TriggerX, follow these steps:
 
 4. **Host the Frontend:**
    - Detailed instructions are [here](frontend/README.md) to host on local.
-   - You can also access the hosted version [here](https://triggerx.vercel.app).
+   - You can also access the hosted version [here](https://trigg3rx.vercel.app).
