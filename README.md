@@ -41,9 +41,21 @@ To get started with TriggerX, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone --recurse-submodules https://github.com/trigg3rX/triggerx.git
+   git clone https://github.com/trigg3rX/triggerx.git
    cd triggerx
    ```
+
+   - You can clone a specific submodule using command:
+
+      ```bash
+      git submodule update --init --recursive -- <submodule_name>
+      ```
+
+   - Or, you can clone all submodules using command:
+
+      ```bash
+      git submodule update --init --recursive
+      ```
 
 2. **Start Contracts:**
    You can follow the instructions [here](contracts/README.md) to deploy the smart contracts on TRON and Ethereum.
