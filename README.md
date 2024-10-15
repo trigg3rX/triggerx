@@ -70,3 +70,19 @@ To get started with TriggerX, follow these steps:
 4. **Host the Frontend:**
    - Detailed instructions are [here](frontend/README.md) to host on local.
    - You can also access the hosted version [here](https://trigg3rx.vercel.app).
+   - Test Value sets for frontend Demo:
+
+      **Value Set:** For a contract which links domain name to wallet address
+
+      **Contract Address:** `TN4MeYmA3CRmo6Uj6h4Yj2pPcnJiwGaFog`
+
+      **Target Function Signature:** `linkDomainToAddress(bytes32,address)`
+
+      **Argument Type:** Static
+
+      **Arguments:** `tronscan.nile.org,TEqqmXaynt9XmmcBNYbJh5tMVDmm183c2r`
+
+      Notice how we wrote the targetFunctionSignature and arguments.
+      - No spaces are allowed in the arguments.
+      - The arguments are separated by commas.
+      - The arguments types mentioned in function signature should be in the same order required by the function.
